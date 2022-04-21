@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
@@ -17,8 +17,10 @@
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/slider.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/darkmode.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
+  <script type='text/javascript' src="js/darktheme.js"></script>
 </head>
 
 <body>
@@ -35,6 +37,11 @@
             <li class="header-nav-item"><a href="#works">WORKS</a></li>
             <li class="header-nav-item"><a href="#skill">SKILL</a></li>
             <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
+            <li class="switchArea">
+              <input type="checkbox" id="switch" id="changeMode">
+              <label for="switch"><span></span></label>
+              <div id="swlmg"></div>
+            </li>
           </ul>
         </nav>
       </div>
@@ -45,7 +52,7 @@
 
       <!-- split -->
       <div class="split">
-        <div class="split-body" style = "background-color: blanchedalmond;">
+        <div class="split-body">
           <p class="split-title">荒瀬勇太</p>
           <p class="split-text">
               やった人がクスっとでも笑えたら良いゲームを制作しています。<br>
@@ -60,9 +67,9 @@
           <!-- slider -->
           <div class="slider">
             <ul>
-              <li><img class="sliderimage" src="img/slide_1.jpeg" ></li>
-              <li><img class="sliderimage" src="img/slide_2.jpeg" ></li>
-              <li><img class="sliderimage" src="img/slide_3.jpeg" ></li>
+              <li><img class="sliderimage" src="img/slide_1.png" ></li>
+              <li><img class="sliderimage" src="img/slide_2.png" ></li>
+              <li><img class="sliderimage" src="img/slide_3.png" ></li>
             </ul>
           </div>
           <!-- slider --> 

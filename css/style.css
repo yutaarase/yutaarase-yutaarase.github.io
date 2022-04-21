@@ -119,6 +119,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  padding: 0% 10%;
   justify-content: space-between;
   position: relative;
   top: 66px;
@@ -128,6 +129,7 @@ img {
   width: 50%;
   top: 50%;
   left: 5%;
+  background-color: blanchedalmond;
   position: absolute;
   border-radius: 10px;
   padding-right: 3%;
