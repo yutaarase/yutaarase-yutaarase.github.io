@@ -19,11 +19,6 @@ img {
   border-style: none;
 }
 
-ul,
-li {
-  list-style: none;
-}
-
 .pc-only {
   display: block;
 }
@@ -98,6 +93,7 @@ li {
 .header-nav-list {
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 
 .header-nav-item:not(:last-child) {
