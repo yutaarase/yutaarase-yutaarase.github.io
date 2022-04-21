@@ -20,7 +20,6 @@
   <link href="css/darkmode.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
-  <script type='text/javascript' src="js/darktheme.js"></script>
 </head>
 
 <body>
@@ -37,11 +36,14 @@
             <li class="header-nav-item"><a href="#works">WORKS</a></li>
             <li class="header-nav-item"><a href="#skill">SKILL</a></li>
             <li class="header-nav-item"><a href="#contact">CONTACT</a></li>
-            <li class="switchArea">
-              <input type="checkbox" id="switch" id="changeMode">
-              <label for="switch"><span></span></label>
-              <div id="swlmg"></div>
+            <li class="header-nav-item"><a>DarkMode</a></liclass>
+            <li class="header-nav-item">
+              <section class="toggle-dark-mode">
+                <input type="checkbox" id="switch" />
+                <label for="switch"></label>
+              </section>
             </li>
+            
           </ul>
         </nav>
       </div>
@@ -200,5 +202,6 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+  <script src="js/theme.js"></script>
 </body>
 </html>

@@ -33,11 +33,12 @@ img {
 .section {
   position: relative;
   top: 66px;
-  padding: 80px 0;
+  padding: 80px 10%;
+  background-color:#ffffff;
 }
 
 .inner {
-  max-width: 1340px;
+  /* max-width: 1340px; */
   margin: 0 auto;
   padding: 0 40px;
 }
@@ -69,6 +70,7 @@ img {
   background-color:#f4f4f4;
   box-shadow: 0px 1px 0px #cbcbcb;
   z-index: 2;
+  padding:0% 1%;
 }
 
 .header-inner {
@@ -118,22 +120,24 @@ img {
 .split {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
   padding: 0% 10%;
   justify-content: space-between;
   position: relative;
   top: 66px;
+  background-color:#ffffff;
+  
 }
 
 .split-body {
   width: 50%;
   top: 50%;
-  left: 5%;
+  left: 10.5%;
   background-color: blanchedalmond;
   position: absolute;
   border-radius: 10px;
   padding-right: 3%;
-  padding-left: 5%;
+  padding-left: 10%;
+  padding: 5%;
   z-index: 1;
   opacity: 0.2;
 }
@@ -157,6 +161,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: -40px;
+  background-color:#ffffff;
 }
 
 .works-item {
@@ -196,6 +201,7 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: -50px;
+  background-color:#ffffff;
 }
 
 .skill-item {
