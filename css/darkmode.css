@@ -20,17 +20,14 @@ html {
   filter: invert(100%) hue-rotate(180deg);
 }
 
-
 :root {
-  --primary: #17b87c;
   --body: #f1f3f6;
-  --switch: #f1f3f6;
+  --switch: #000000;
   --checkbox: #000000;
   /* All colors */
 }
 
 :root[data-theme="dark"] {
-  --primary: #17b87c;
   --body: #000000;
   --switch: #000000;
   --checkbox: #f1f3f6;
@@ -52,7 +49,6 @@ label {
   width: 10vh;
   height: 20px;
   bottom: 25px;
-  background-color: var(--checkbox);
   border-radius: 30rem;
   overflow: hidden;
   cursor: pointer;
@@ -62,10 +58,10 @@ label {
 
 label:after {
   position: absolute;
-  left: 8px;
+  left: 5%;
   content: "";
-  width: 30px;
-  height: 15px;
+  width: 30%;
+  height: 100%;
   background-color: var(--switch);
   border-radius: 40%;
 
@@ -77,12 +73,12 @@ label:after {
 }
 
 label:active::after {
-  width: 20px;
+  width: 5%;
 }
 
 input[type="checkbox"] {
-  width: 10vh;
-  height: 20px;
+  width: 10%;
+  height: 5%;
   visibility: hidden;
 }
 
@@ -92,7 +88,7 @@ input[type="checkbox"]:checked + label:after {
 }
 
 .toggle-dark-mode {
-  width: 10vh;
-  height: 20px;
+  width: 10%;
+  height: 5%;
 }
 

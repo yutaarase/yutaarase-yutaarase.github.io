@@ -16,9 +16,11 @@ document.getElementById("switch").onclick = function() {
   let nowMode = el.getAttribute('theme');
   if(nowMode == 'dark') {
     el.setAttribute('theme', 'light');
+    el.setAttribute('data-theme','light');
     window.sessionStorage.setItem('user', 'light');
   } else {
     el.setAttribute('theme', 'dark');
+    el.setAttribute('data-theme','dark');
     window.sessionStorage.setItem('user', 'dark');
   }
 };

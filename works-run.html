@@ -16,6 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/darkmode.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
 </head>
@@ -24,7 +25,7 @@
   <div class="wrapper">
 
     <!-- header -->
-    <header class="header ">
+    <header class="header">
       <div class="header-inner">
         <h1 class="header-logo">
           <a href="index.html">Home</a>
@@ -34,6 +35,13 @@
             <li class="header-nav-item"><a href="index.html#works">WORKS</a></li>
             <li class="header-nav-item"><a href="index.html#skill">SKILL</a></li>
             <li class="header-nav-item"><a href="index.html#contact">CONTACT</a></li>
+            <li class="header-nav-item"><a>DarkMode</a></liclass>
+            <li class="header-nav-item">
+              <section class="toggle-dark-mode">
+                <input type="checkbox" id="switch" />
+                <label for="switch"></label>
+              </section>
+            </li>
           </ul>
         </nav>
       </div>
@@ -93,5 +101,6 @@
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
+  <script src="js/theme.js"></script>
 </body>
 </html>
