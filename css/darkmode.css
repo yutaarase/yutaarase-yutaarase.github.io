@@ -35,7 +35,6 @@ html {
 }
 
 body {
-  display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--body);
@@ -50,7 +49,7 @@ label {
   overflow: hidden;
   cursor: pointer;
   border: solid;
-  border-radius: 20%;
+  border-radius: 10%;
   top:25%;
 }
 

@@ -10,7 +10,6 @@ body {
 a {
   transition: opacity .3s;
   text-decoration: none;
-  color: #1ca9e3;
 }
 
 img {
@@ -35,7 +34,7 @@ img {
   position: relative;
   top: 10%;
   bottom: 10%;
-  padding: 5% 5%;
+  padding-bottom: 10%;
 }
 
 .inner {
@@ -128,14 +127,13 @@ img {
   position: relative;
   top: 10%;
   background-color:#ffffff;
-  
 }
 
 .split-body {
   width: 50%;
   top: 50%;
   left: 10.5%;
-  background-color: blanchedalmond;
+  background-color: rgb(242, 184, 97);
   position: absolute;
   border-radius: 10px;
   padding-right: 3%;
@@ -288,25 +286,37 @@ img {
  下層：Worksページ
 ---------------------------------*/
 .article {
-  padding: 5% 0;
+  background-color: #ffffff;
 }
 
 .article-inner {
-  margin: 0 10%;
-  padding: 0 10%;
+  margin: 0 0;
+  
 }
 
 .article-title {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  font-size: 40px;
   text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+  height: auto;
+  
 }
 
-.article-img {
+.article-imgspace {
+  width: auto;
+  height: auto;
   margin-bottom: 10%;
+}
+
+.article-img{
+  width: 60%;
+  height: 50vh;
+  margin: 0 20%;
 }
 
 .article-body {
+  margin: 0 20%;
   margin-bottom: 10%;
 }
 
@@ -318,8 +328,12 @@ img {
   margin-bottom: 10%;
 }
 
-.article-body p {
+.article-body p{
   margin-bottom: 10%;
+}
+
+.article-br{
+  margin-bottom: 10%
 }
 
 .home-link {
