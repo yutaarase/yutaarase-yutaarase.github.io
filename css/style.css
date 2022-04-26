@@ -304,15 +304,14 @@ img {
 }
 
 .article-imgspace {
-  width: auto;
-  height: auto;
-  margin-bottom: 10%;
+  position: relative;
+  padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
+  left: 0;
 }
 
 .article-img{
-  width: 60%;
-  height: 50vh;
-  margin: 0 20%;
+  width: 100%;
+  height: 100%;
 }
 
 .article-body {

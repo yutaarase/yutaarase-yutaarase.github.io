@@ -16,7 +16,11 @@ html {
   filter: invert(100%) hue-rotate(180deg);
 }
 
-:root[theme="dark"] img {
+:root[theme="dark"] img{
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+:root[theme="dark"] iframe{
   filter: invert(100%) hue-rotate(180deg);
 }
 
