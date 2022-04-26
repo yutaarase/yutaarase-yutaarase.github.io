@@ -303,13 +303,22 @@ img {
   
 }
 
-.article-imgspace {
-  position: relative;
-  padding-bottom: 56.25%; /*アスペクト比 16:9の場合の縦幅*/
-  left: 0;
+.article-displayspace{
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10%;
 }
 
-.article-img{
+.article-display{
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.article-movie{
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 }
