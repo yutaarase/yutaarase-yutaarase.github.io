@@ -17,6 +17,8 @@
   <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/darkmode.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/slider.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/flickity.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
   <link rel=”canonical” href=”URLが入る” />
 </head>
@@ -53,10 +55,13 @@
       <article class="article section">
         <div class="article-inner">
           <h2 class="article-title">FoodManagementApp</h2>
-          <div class="article-displayspace">
-            <p class="article-display">
-              <img class="article-movie" src="img/works-sample.jpg" alt="">
-            </p>
+          <div class="gallery js-flickity"
+              data-flickity-options='{ "wrapAround": true }'>
+              <div class="gallery-cell"><img class="gallery-img"src="img/slide_1.png"></div>
+              <div class="gallery-cell"><img class="gallery-img"src="img/slide_2.png"></div>
+              <div class="gallery-cell"><img class="gallery-img"src="img/slidephoto_1.jpeg"></div>
+              <div class="gallery-cell"><img class="gallery-img"src="img/slidephoto_2.jpeg"></div>
+              <div class="gallery-cell"><img class="gallery-img"src="img/slidephoto_3.jpg"></div>
           </div>
           <div class="article-body">
             <div class="article-br">
@@ -117,5 +122,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
   <script src="js/theme.js"></script>
+  <script src="js/flickity.pkgd.min.js"></script> 
 </body>
 </html>

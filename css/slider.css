@@ -56,3 +56,29 @@
 		opacity:0;
 	}	
 }
+
+* {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+	background: #EEE;
+	margin-bottom: 10%;
+  }
+  
+  .gallery-cell {
+	width: 80vh;
+	height: 60vh;
+	margin-right: 50%;
+	text-align: center;
+	background: #8C8;
+	counter-increment: gallery-cell;
+  }
+
+  .gallery-img{
+	  width: auto;
+	  height: 100%;
+  }
