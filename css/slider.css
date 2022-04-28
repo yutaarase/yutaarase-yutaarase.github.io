@@ -12,9 +12,9 @@
 .slider ul li{
 	width:100%;
 	height:100%;
-	position:absolute;
 	animation-iteration-count:infinite;
 	animation-duration:24s;
+	position:absolute;
 }
 
 .sliderimage{
