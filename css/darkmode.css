@@ -24,6 +24,10 @@ html {
   filter: invert(100%) hue-rotate(180deg);
 }
 
+:root[theme="dark"] iframe .ytp-fullscreen{
+  filter: invert(100%) hue-rotate(180deg);
+}
+
 :root {
   --body: #f1f3f6;
   --switch: #000000;
