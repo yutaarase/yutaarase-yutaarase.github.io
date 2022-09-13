@@ -85,17 +85,23 @@ img {
   font-size: 20px;
   font-weight: bold;
   line-height: 1;
-  margin-right: 5%;
   letter-spacing: 0.05em;
+  margin-right: 10%;
 }
 
 .header-logo a {
   color: #333;
 }
 
+.header-nav {
+  
+}
+
 .header-nav-list {
   display: flex;
   list-style: none;
+  
+  width: 50%;
 }
 
 .header-nav-item:not(:last-child) {
